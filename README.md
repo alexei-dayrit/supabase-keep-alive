@@ -1,10 +1,10 @@
-# supabase-keep-alive
+# 🛠️ supabase-keep-alive
 This repo runs a lightweight JavaScript script via GitHub Actions to periodically ping a Supabase table, keeping your free-tier Supabase project from being paused due to inactivity.
 
-## How It Works
+## ✅ How It Works
 GitHub Actions runs the script every 6 hours (by default), sending a small query to your database. This counts as “activity” and prevents the project from being paused after 7 days of inactivity.
 
-## Setup Instructions
+## 🚀 Setup Instructions
 Follow these steps to use this in your own Supabase project:
 
 1. Clone this repository
